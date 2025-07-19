@@ -1,1 +1,1 @@
-# OIBSIP_Web-Development-and-designing_Task_2
+Just built my personal portfolio website using HTML & CSS — a beginner-friendly yet powerful way to showcase my skills, resume, and projects all in one place! From a clean intro section with my image to a contact form and responsive layout, this project helped me sharpen my frontend fundamentals and design thinking.
