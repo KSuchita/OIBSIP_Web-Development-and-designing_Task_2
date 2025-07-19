@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kondeti Suchita - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Landing Page -->
+  <div class="landing-page" id="landing">
+    <div class="landing-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I’m Kondeti Suchita – a passionate web developer</p>
+      <button onclick="showPortfolio()" class="btn">Show Portfolio</button>
+    </div>
+  </div>
+
+  <!-- Dark Mode Toggle -->
+  <button class="dark-toggle" onclick="toggleDarkMode()">🌓</button>
+
+  <!-- Main Portfolio Content -->
+  <header>
+    <div class="intro">
+      <div>
+        <h1>Hello, I'm Kondeti Suchita</h1>
+        <p>3rd Year CSE Student | Aspiring Software Developer</p>
+      </div>
+      <img src="CUTY PHOTO.jpg" alt="My Photo" class="profile-img" />
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Motivated B.Tech (CSE) student at VNR VJIET with a CGPA of 8.69. Passionate about software development, full-stack web development, and data analytics. Seeking opportunities to contribute to software product development and work with collaborative teams on impactful projects.
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><span class="tag">C</span> <span class="tag">Python</span> <span class="tag">Java</span> <span class="tag">R</span></li>
+      <li><span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span> <span class="tag">React</span> <span class="tag">Node.js</span></li>
+      <li><span class="tag">Oracle SQL</span> <span class="tag">MongoDB</span></li>
+      <li><span class="tag">Tableau</span> <span class="tag">Power BI</span> <span class="tag">AutoCAD</span></li>
+    </ul>
+  </section>
+
+  <section class="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="card">
+      <h3>Job Portal (MERN Stack)</h3>
+      <p class="short">Job platform with profiles and recruiter dashboards.</p>
+      <p class="full hidden">
+        Developed with MongoDB, Express.js, React, and Node.js. Includes job listings, user login, application flow, and recruiter management.
+      </p>
+      <button class="show-btn">Show More</button>
+    </div>
+
+    <div class="card">
+      <h3>Health Tracker (Python)</h3>
+      <p class="short">Tracks health metrics and provides insights.</p>
+      <p class="full hidden">
+        Tracks steps, calories, and sleep with real-time analytics. Built in Python using data processing and visualization libraries.
+      </p>
+      <button class="show-btn">Show More</button>
+    </div>
+
+    <div class="card">
+      <h3>Hotel Management System (SQL)</h3>
+      <p class="short">Handles reservations, check-ins/outs, billing.</p>
+      <p class="full hidden">
+        Built using SQL Plus for efficient room, guest, and billing data management in hotel workflows.
+      </p>
+      <button class="show-btn">Show More</button>
+    </div>
+
+    <div class="card">
+      <h3>Vehicle Rental System (Java)</h3>
+      <p class="short">Manage rental vehicles, users, inventory.</p>
+      <p class="full hidden">
+        A Java desktop app that handles booking, vehicle availability, and admin control for cars, bikes, and trucks.
+      </p>
+      <button class="show-btn">Show More</button>
+    </div>
+
+    <div class="card">
+      <h3>Hostel Problem Manager (HTML/CSS/JS)</h3>
+      <p class="short">Web system for reporting hostel issues.</p>
+      <p class="full hidden">
+        Created using HTML, CSS, JavaScript for complaint submission and resolution tracking. Admin and user roles supported.
+      </p>
+      <button class="show-btn">Show More</button>
+    </div>
+
+    <div class="card">
+      <h3>Railway Ticket Booking (C)</h3>
+      <p class="short">Console system for train reservations.</p>
+      <p class="full hidden">
+        Developed in C, allows users to book, view, and cancel tickets. Manages seat availability and user data.
+      </p>
+      <button class="show-btn">Show More</button>
+    </div>
+
+    <div class="card">
+      <h3>Unit Converter (C)</h3>
+      <p class="short">Convert between multiple length units.</p>
+      <p class="full hidden">
+        Built in C, this program converts meters, kilometers, centimeters, and millimeters using a user-friendly terminal interface.
+      </p>
+      <button class="show-btn">Show More</button>
+    </div>
+  </div>
+</section>
+
+
+   <section class="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Introduction to AI – Infosys</li>
+      <li>OpenAI GPT-3 & GPT Models – Infosys</li>
+      <li>DBMS – Scaler</li>
+      <li>Computer Vision, Deep Learning – Infosys</li>
+      <li>Robotic Process Automation – Infosys</li>
+      <li>Tableau – Udemy</li>
+      <li>Data Science, NLP – Infosys</li>
+    </ul>
+  </section>
+
+  <section class="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Meritorious Award – Defence Accounts</li>
+      <li>Webathon – ACM VNRVJIET</li>
+      <li>Turing Cup 2K25</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: <a href="mailto:kondetisuchita@gmail.com">kondetisuchita@gmail.com</a></li>
+      <li>Phone: <a href="tel:+917815914779">+91 7815914779</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/kondeti-suchita-9056a0294/" target="_blank">linkedin.com/in/kondeti-suchita</a></li>
+      <li>GitHub: <a href="https://github.com/KSuchita" target="_blank">github.com/KSuchita</a></li>
+    </ul>
+  </section>
+
+  <section class="resume">
+    <h2>Resume</h2>
+    <a href="Suchita_resume (7).pdf" download class="btn">Download My Resume</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kondeti Suchita. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function showPortfolio() {
+      document.getElementById('landing').classList.add('hidden');
+    }
+
+    document.querySelectorAll('.show-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const fullText = button.previousElementSibling;
+        fullText.classList.toggle('hidden');
+        button.textContent = fullText.classList.contains('hidden') ? 'Show More' : 'Show Less';
+      });
+    });
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+
+    if (localStorage.getItem('dark-mode') === 'true') {
+      document.body.classList.add('dark');
+    }
+
+    document.querySelector('.dark-toggle')?.addEventListener('click', () => {
+      const isDark = document.body.classList.contains('dark');
+      localStorage.setItem('dark-mode', isDark);
+    });
+    // Right-click context menu
+document.addEventListener("contextmenu", function (e) {
+  e.preventDefault();
+  const menu = document.getElementById("contextMenu");
+  menu.style.display = "block";
+  menu.style.left = `${e.pageX}px`;
+  menu.style.top = `${e.pageY}px`;
+});
+
+document.addEventListener("click", function () {
+  document.getElementById("contextMenu").style.display = "none";
+});
+
+  </script>
+  <!-- Custom Context Menu -->
+<div id="contextMenu" class="context-menu hidden">
+  <ul>
+    <li onclick="alert('Dark Mode Toggled'); toggleDarkMode()">🌙 Toggle Dark Mode</li>
+    <li onclick="window.location.reload()">🔄 Reload</li>
+    <li onclick="alert('Right-click disabled by portfolio!')">ℹ️ About</li>
+  </ul>
+</div>
+
+</body>
+</html>
